@@ -8,7 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test shell commands
-        run: 
+        run: |
           echo "welcome to test workflow"
+          ls -lart
+          echo "displaying the files in the runner"
         
   
