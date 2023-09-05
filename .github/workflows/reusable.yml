@@ -7,6 +7,9 @@ jobs:
   testjob:
     runs-on: ubuntu-latest
     steps:
+      - name: checout source code
+        uses: actions/checkout@v3
+        
       - name: Test shell commands
         run: |
           echo "welcome to test workflow"
