@@ -3,6 +3,8 @@ I have to work on github actions
 
 Github actions pipline:
 
+source code check out git hub runner
+
 1. terraform profile set
 2. terraform validate
 3. terraform fmt
