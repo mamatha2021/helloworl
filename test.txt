@@ -1,1 +1,11 @@
 I have to work on github actions
+
+
+Github actions pipline:
+
+1. terraform profile set
+2. terraform validate
+3. terraform fmt
+4. terraform security checks using checkov
+5. terraform plan
+6. terraform apply
