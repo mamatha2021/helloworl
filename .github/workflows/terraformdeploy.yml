@@ -21,7 +21,7 @@ jobs:
 
     # Install the latest version of Terraform CLI and configure the Terraform CLI configuration file with a Terraform Cloud user API token
     - name: testing reusable workflow
-      uses: ./.github/workflows/reusable workflow.yml
+      uses: ./.github/workflows/reusable.yml
 
 
 
