@@ -1,0 +1,16 @@
+name: testworkflowreuable
+on: 
+  workflow_call:
+  workflow_dispatch:
+
+jobs:
+  testjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test shell commands
+        run: |
+          echo "welcome to test workflow"
+          ls -lart
+          echo "displaying the files in the runner"
+        
+  
