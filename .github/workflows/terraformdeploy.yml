@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 jobs:
   checkovcheck:
-    uses: ./helloworl/.github/workflows/reusable.yml
+    uses: ././.github/workflows/reusable.yml
 
 
 # name: 'Terraform'
